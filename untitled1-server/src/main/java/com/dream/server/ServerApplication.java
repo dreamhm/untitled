@@ -1,12 +1,12 @@
 package com.dream.server;
 
-import com.dream.customer.service.CehoService;
+import com.dream.customer.service.EchoService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Import;
 
 @SpringBootApplication
-@Import(CehoService.class)
+@Import(EchoService.class)
 public class ServerApplication {
 
     public static void main(String[] args) {
