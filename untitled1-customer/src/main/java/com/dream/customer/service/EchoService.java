@@ -3,10 +3,11 @@ package com.dream.customer.service;
 import org.springframework.stereotype.Component;
 
 @Component
-public class CehoService {
+public class EchoService {
 
     public String echo(){
         String echo = "灶门弥豆子";
+        String echo = "灶门炭治郎";
         return "LiXia";
     }
 
