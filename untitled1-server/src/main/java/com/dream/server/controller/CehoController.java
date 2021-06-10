@@ -14,8 +14,8 @@ public class CehoController {
     private CehoService cehoService;
 
     @GetMapping("/hello")
-    public String ceho(){
-        String result = cehoService.ceho();
+    public String echo(){
+        String result = cehoService.echo();
         return "hello word" + result;
     }
 }
